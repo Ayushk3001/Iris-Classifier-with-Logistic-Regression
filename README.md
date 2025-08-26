@@ -36,35 +36,6 @@ It’s ideal for beginners who want a compact example of the classical ML pipeli
 
 ---
 
-## ▶️ Quickstart
-
-```bash
-# 1) Clone your repo (example)
-git clone <your-repo-url>
-cd <your-repo-dir>
-
-# 2) (Optional) Create a fresh venv
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-# 3) Install deps
-pip install -r requirements.txt
-# Or:
-pip install numpy pandas scikit-learn jupyter
-
-# 4) Put dataset in the expected path
-mkdir -p data
-# Place Iris.csv inside ./data/
-# (or edit the notebook to point to your actual CSV path)
-
-# 5) Run the notebook
-jupyter notebook MLDemo2.ipynb
-```
-
----
-
 ## 🧪 What You’ll See
 - **Accuracy** on test split (typically ~0.9–0.97 depending on random state)
 - **Predictions** for sample inputs
